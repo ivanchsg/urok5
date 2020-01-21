@@ -14,6 +14,7 @@ button {
 	width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: auto;
 
 }
 
@@ -113,10 +114,21 @@ button {
 	min-height: 55px;
 }
 
-.features-block_text{
+.features-block_text {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 22px;
 }
 
+.content-images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
+.image-box {
+	width: 25%;
+padding-bottom: 11px;
+
+}
